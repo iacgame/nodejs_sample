@@ -1,0 +1,33 @@
+{
+  "name": "nodejs_sample",
+  "version": "0.0.1",
+  "description": "Node.js sample app with mongodb",
+  "main": "server.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.2.36",
+    "morgan": "^1.9.1",
+    "object-assign": "^4.1.0"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iacgame/nodejs_sample"
+  },
+  "author": "Christian Schreiner <christian.schreiner@computacenter.com>",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "https://github.com/iacgame/nodejs_sample/issues"
+  },
+  "homepage": "https://github.com/iacgame/nodejs_sample"
+}
